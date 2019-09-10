@@ -83,7 +83,6 @@ for a in j:
         grade8 = a
 
 
-#print(grade2)
 lis = np.array([4,4,3,3,1,1,1,4])
 lis2 =[grade1,grade2,grade3,grade4,grade5,grade6,grade7,grade8]
 
