@@ -4,7 +4,7 @@ import pandas
 import numpy as np
 
 con = []
-q =input("Enter your registration number.")
+q =input("Enter your registration number.\n")
 
 
 #add your csv file path below
