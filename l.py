@@ -4,11 +4,11 @@ import pandas
 import numpy as np
 
 con = []
-q = 'TVE18CS029'
+q =input("Enter your registration number.")
 
 
 
-with open('C:\\Users\\user\\Downloads\\result_TVE (1).csv','rt')as f:
+with open('/content/result_TVE.csv','rt')as f:
     data = csv.reader(f)
     for row in data:
         con.append(row)
@@ -83,7 +83,7 @@ for a in j:
         grade8 = a
 
 
-print(grade2)
+#print(grade2)
 lis = np.array([4,4,3,3,1,1,1,4])
 lis2 =[grade1,grade2,grade3,grade4,grade5,grade6,grade7,grade8]
 
@@ -208,49 +208,3 @@ s =sum(newar)
 
 gpa=(s/210)*10
 print(gpa)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
