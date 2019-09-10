@@ -7,7 +7,7 @@ con = []
 q =input("Enter your registration number.")
 
 
-
+#add your csv file path below
 with open('/content/result_TVE.csv','rt')as f:
     data = csv.reader(f)
     for row in data:
