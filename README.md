@@ -1,3 +1,3 @@
 # stuff
 some stuff
-*Enter your registration number to check your gpa
+* Enter your registration number to check your gpa
